@@ -1,16 +1,75 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <style>
+        /* Optional CSS for the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 2px;
+            text-align: center;
+        }
+        th {
+            background-color: indianred;
+			color:white;
+        }
+
+		.row-1{
+			color:white;
+			background-color:grey;
+		}
+		.row-2{
+			color:black;
+			background-color:hotpink;
+		}
+		.row-3{
+			color:black;
+		}
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table>
+        <thead>
+            <tr>
+                <th>Part</th>
+                <th>XS</th>
+                <th>S</th>
+                <th>M</th>
+                <th>L</th>
+                <th>XL</th>
+			 </tr>
+        </thead>
+        <tbody>
+            <tr class="row-1">
+                <td>Waist</td>
+                <td>25</td>
+                <td>28</td>
+                <td>30</td>
+                <td>31</td>
+                <td>32</td>
+				
+            </tr>
+            <tr class="row-2">
+                <td>Chest</td>
+                <td>34</td>
+                <td>34</td>
+                <td>38</td>
+                <td>40</td>
+                <td>41</td>
+				
+            </tr>
+            <tr class="row-3">
+                <td>Sleeve</td>
+                <td>23</td>
+                <td>24</td>
+                <td>24</td>
+                <td>25</td>
+                <td>25</td>
+		  </tr>
+        </tbody>
+    </table>
 </body>
-
 </html>
